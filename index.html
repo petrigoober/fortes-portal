@@ -19,15 +19,15 @@
         <img src="https://fortes.ind.br/wp-content/uploads/2022/08/FORTES_LOGOMARCA_moldura-e1660776738611.png" alt="Logo">
       </div>
       <div class="actions">
-        <button id="myButton" class="float-left submit-button" >Sair</button>
-
-<script type="text/javascript">
-    document.getElementById("botao").onclick = function () {
-        location.href = "https://petrigoober.github.io/fortes-website/";
-    };
-</script>
-
-    </div>
+        <button class="button-small-2">...</button>
+        <button onclick="redirectSair()" class="button-small">SAIR</button>
+    
+      <script>
+        function redirectSair() {
+          window.location.href = "https://petrigoober.github.io/fortes-website/";
+        }
+      </script>
+      </div>
     <div class="flex-row">
       <div class="sidebar">
         <button onclick="inscricoes()"><i class="fas fa-bookmark"></i> INSCRIÇÕES</button>
