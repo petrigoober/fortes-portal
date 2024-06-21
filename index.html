@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portal do Trabalhador</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/60da566315.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="container">
@@ -19,8 +20,15 @@
       </div>
       <div class="actions">
         <button class="button-small-2">...</button>
-        <button onclick="sair()" class="button-small">SAIR</button>
+        <button onclick="redirectSair()" class="button-small">SAIR</button>
       </div>
+    
+      <script>
+        function redirectSair() {
+          // Replace the URL with the desired website URL
+          window.location.href = "https://petrigoober.github.io/fortes-website/";
+        }
+      </script>
     </div>
     <div class="flex-row">
       <div class="sidebar">
